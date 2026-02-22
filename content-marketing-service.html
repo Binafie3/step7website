@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" style="scroll-behavior: smooth;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>خدمة تسويق المحتوى | الخطوة السابعة</title>
+    <meta name="description" content="خدمة تسويق المحتوى من شركة الخطوة السابعة. محتوى احترافي يجذب جمهورك ويبني سلطة علامتك التجارية وثقة العملاء.">
+    
+    <!-- Tailwind CSS CDN --><script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts (Tajawal) --><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        body, html {
+            font-family: 'Tajawal', sans-serif;
+        }
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f5f9;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #8B7E67;
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #7A6F5A;
+        }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary': {
+                            DEFAULT: '#8B7E67',
+                            'light': '#D3CDC4',
+                            'lightest': '#F8F7F5',
+                            'darker': '#7A6F5A',
+                        },
+                        'dark-bg': '#1A1A1A',
+                        'light-bg': '#F8F7F5',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-white text-gray-900 antialiased">
+
+    <!-- =========== Header =========== -->
+<header class="bg-dark-bg shadow-lg sticky top-0 z-50 transition-all duration-300">
+        <nav class="container mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-20">
+            <a href="inex.html" class="flex items-center gap-2 flex-shrink-0">
+                <img src="images\شعار مفرغ.png" alt="شعار الخطوة السابعة" class="h-16 md:h-24 w-auto">
+            </a>
+            <div class="hidden md:flex flex-1 justify-center items-center flex-wrap gap-4 md:gap-6 lg:gap-10 min-w-0">
+                <a href="inex.html" class="text-gray-300 hover:text-primary-light transition-colors duration-200 text-lg font-medium px-3 whitespace-nowrap">الرئيسية</a>
+                <a href="inex.html#about" class="text-gray-300 hover:text-primary-light transition-colors duration-200 text-lg font-medium px-3 whitespace-nowrap">من نحن</a>
+                <a href="inex.html#services" class="text-gray-300 hover:text-primary-light transition-colors duration-200 text-lg font-medium px-3 whitespace-nowrap">خدماتنا</a>
+                <a href="inex.html#process" class="text-gray-300 hover:text-primary-light transition-colors duration-200 text-lg font-medium px-3 whitespace-nowrap">آلية عملنا</a>
+                <a href="inex.html#contact" class="text-gray-300 hover:text-primary-light transition-colors duration-200 text-lg font-medium px-3 whitespace-nowrap">تواصل معنا</a>
+            </div>
+            <a href="inex.html#contact" class="hidden md:block bg-primary text-white px-6 py-2.5 rounded-full font-semibold shadow-lg hover:bg-primary-darker hover:shadow-xl transition-all duration-300 transform hover:-translate-y-0.5 flex-shrink-0">
+                اطلب استشارة مجانية
+            </a>
+            <button id="mobile-menu-button" class="md:hidden text-gray-300 hover:text-primary-light" aria-label="فتح القائمة">
+                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+            </button>
+        </nav>
+        <div id="mobile-menu" class="hidden md:hidden bg-dark-bg shadow-xl absolute top-full left-0 w-full z-40">
+            <div class="flex flex-col space-y-4 p-6">
+                <a href="inex.html" class="text-gray-300 hover:text-primary-light transition-colors duration-200 text-lg font-medium block text-center">الرئيسية</a>
+                <a href="inex.html#about" class="text-gray-300 hover:text-primary-light transition-colors duration-200 text-lg font-medium block text-center">من نحن</a>
+                <a href="inex.html#services" class="text-gray-300 hover:text-primary-light transition-colors duration-200 text-lg font-medium block text-center">خدماتنا</a>
+                <a href="inex.html#process" class="text-gray-300 hover:text-primary-light transition-colors duration-200 text-lg font-medium block text-center">آلية عملنا</a>
+                <a href="inex.html#contact" class="text-gray-300 hover:text-primary-light transition-colors duration-200 text-lg font-medium block text-center">تواصل معنا</a>
+                <a href="inex.html#contact" class="mt-4 w-full bg-primary text-white px-6 py-3 rounded-full font-semibold shadow-lg hover:bg-primary-darker transition-all duration-300 text-center">
+                    اطلب استشارة مجانية
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- =========== Main Content =========== -->
+<main>
+        <!-- =========== Hero Section =========== -->
+<section class="relative bg-gradient-to-br from-light-bg via-white to-light-bg pt-20 pb-20 md:pt-32 md:pb-32 overflow-hidden">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center md:text-right max-w-4xl">
+                    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-gray-900 leading-tight">
+                        تسويق المحتوى
+                        <span class="block text-primary">قصص تأسر جمهورك وتحوّله إلى عميل مخلص</span>
+                    </h1>
+                    <p class="mt-6 text-lg sm:text-xl text-gray-700">
+                        نخلق محتوى استراتيجي وقيّم يجذب جمهورك المستهدف، يبني ثقة علامتك التجارية، ويحولهم من متصفحين عاديين إلى عملاء وأنصار مخلصين.
+                    </p>
+                    <div class="mt-10 flex flex-col sm:flex-row justify-center md:justify-start gap-4">
+                        <a href="inex.html#contact" class="bg-primary text-white px-8 py-3.5 rounded-full font-semibold text-lg shadow-lg hover:bg-primary-darker hover:shadow-xl transition-all duration-300 transform hover:-translate-y-0.5">
+                            ابدأ استراتيجية محتوى معنا
+                        </a>
+                        <a href="inex.html#services" class="bg-white text-primary border border-primary-light px-8 py-3.5 rounded-full font-semibold text-lg shadow-sm hover:bg-light-bg hover:shadow-lg transition-all duration-300">
+                            عودة للخدمات
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========== Introduction Section =========== -->
+<section class="py-24 bg-white">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="max-w-4xl">
+                    <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-8">لماذا تسويق المحتوى مهم؟</h2>
+                    <p class="text-lg text-gray-700 mb-6">
+                        في عالم التسويق الحديث، لا يريد الناس الإعلانات التقليدية المباشرة. يريدون قيمة، معلومات، ترفيه، وقصص تلمس قلوبهم. تسويق المحتوى يحقق ذلك بالضبط.
+                    </p>
+                    <p class="text-lg text-gray-700 mb-6">
+                        بدلاً من الضغط على العملاء للشراء، نحن نجذبهم بمحتوى قيّم يحل مشاكلهم ويجعل علامتك التجارية مصدر ثقة لهم.
+                    </p>
+                    <p class="text-lg text-gray-700">
+                        في الخطوة السابعة، نتخصص في إنشاء استراتيجيات محتوى شاملة تجمع بين القصص المقنعة والبيانات الذكية لضمان النتائج المقاسة.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========== Content Types =========== -->
+<section class="py-24 bg-gray-50">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-16 text-center">أنواع المحتوى الذي ننتجه</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+                    
+                    <!-- Blog Posts -->
+                    <div class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden">
+                        <div class="bg-gradient-to-br from-blue-500 to-blue-600 p-6 text-white">
+                            <h3 class="text-2xl font-bold">📝 مقالات المدونة</h3>
+                        </div>
+                        <div class="p-6">
+                            <p class="text-gray-700 mb-4">مقالات طويلة عميقة تستكشف موضوعات تهم جمهورك وتحسّن ترتيبك في محرك البحث.</p>
+                            <ul class="space-y-2">
+                                <li class="flex items-center gap-2">
+                                    <svg class="w-4 h-4 text-primary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <span class="text-gray-700">محسّنة لـ SEO</span>
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <svg class="w-4 h-4 text-primary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <span class="text-gray-700">تحليل عميق</span>
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <svg class="w-4 h-4 text-primary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <span class="text-gray-700">دعوات للعمل واضحة</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Video Content -->
+                    <div class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden">
+                        <div class="bg-gradient-to-br from-red-500 to-red-600 p-6 text-white">
+                            <h3 class="text-2xl font-bold">🎬 محتوى الفيديو</h3>
+                        </div>
+                        <div class="p-6">
+                            <p class="text-gray-700 mb-4">فيديوهات جذابة تشرح خدماتك، تحكي قصص العملاء، وتبني اتصالاً عاطفياً مع جمهورك.</p>
+                            <ul class="space-y-2">
+                                <li class="flex items-center gap-2">
+                                    <svg class="w-4 h-4 text-primary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <span class="text-gray-700">تصوير احترافي</span>
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <svg class="w-4 h-4 text-primary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <span class="text-gray-700">مونتاج احترافي</span>
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <svg class="w-4 h-4 text-primary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <span class="text-gray-700">توزيع عبر المنصات</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Infographics -->
+                    <div class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden">
+                        <div class="bg-gradient-to-br from-green-500 to-green-600 p-6 text-white">
+                            <h3 class="text-2xl font-bold">📊 انفوجرافيك</h3>
+                        </div>
+                        <div class="p-6">
+                            <p class="text-gray-700 mb-4">تصاميم بصرية تشرح المعلومات المعقدة بطريقة بسيطة وجميلة وسهلة الفهم.</p>
+                            <ul class="space-y-2">
+                                <li class="flex items-center gap-2">
+                                    <svg class="w-4 h-4 text-primary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <span class="text-gray-700">تصميم احترافي</span>
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <svg class="w-4 h-4 text-primary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <span class="text-gray-700">سهل المشاركة</span>
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <svg class="w-4 h-4 text-primary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <span class="text-gray-700">معلومات سريعة</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Social Media Content -->
+                    <div class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden">
+                        <div class="bg-gradient-to-br from-purple-500 to-purple-600 p-6 text-white">
+                            <h3 class="text-2xl font-bold">📱 محتوى وسائل التواصل</h3>
+                        </div>
+                        <div class="p-6">
+                            <p class="text-gray-700 mb-4">منشورات مخطط لها تجذب التفاعل وتبني مجتمع قوي حول علامتك التجارية.</p>
+                            <ul class="space-y-2">
+                                <li class="flex items-center gap-2">
+                                    <svg class="w-4 h-4 text-primary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <span class="text-gray-700">محتوى يومي</span>
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <svg class="w-4 h-4 text-primary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <span class="text-gray-700">تفاعل جمهور</span>
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <svg class="w-4 h-4 text-primary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <span class="text-gray-700">محتوى متنوع</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Case Studies -->
+                    <div class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden">
+                        <div class="bg-gradient-to-br from-yellow-500 to-yellow-600 p-6 text-white">
+                            <h3 class="text-2xl font-bold">📚 دراسات الحالات</h3>
+                        </div>
+                        <div class="p-6">
+                            <p class="text-gray-700 mb-4">قصص نجاح حقيقية تشرح كيف ساعدنا عملاء آخرين وتبني الثقة معك.</p>
+                            <ul class="space-y-2">
+                                <li class="flex items-center gap-2">
+                                    <svg class="w-4 h-4 text-primary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <span class="text-gray-700">نتائج قابلة للقياس</span>
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <svg class="w-4 h-4 text-primary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <span class="text-gray-700">قصص ملهمة</span>
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <svg class="w-4 h-4 text-primary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <span class="text-gray-700">إثبات الكفاءة</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Podcasts & Audio -->
+                    <div class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden">
+                        <div class="bg-gradient-to-br from-indigo-500 to-indigo-600 p-6 text-white">
+                            <h3 class="text-2xl font-bold">🎙️ بودكاست وصوت</h3>
+                        </div>
+                        <div class="p-6">
+                            <p class="text-gray-700 mb-4">محتوى صوتي يتيح لجمهورك الاستماع وهم في الطريق أو في العمل.</p>
+                            <ul class="space-y-2">
+                                <li class="flex items-center gap-2">
+                                    <svg class="w-4 h-4 text-primary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <span class="text-gray-700">إنتاج عالي الجودة</span>
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <svg class="w-4 h-4 text-primary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <span class="text-gray-700">توزيع عالمي</span>
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <svg class="w-4 h-4 text-primary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <span class="text-gray-700">فرصة للحوار</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- =========== Content Strategy =========== -->
+<section class="py-24 bg-white">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-16 text-center">استراتيجيتنا في تسويق المحتوى</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-4xl mx-auto">
+                    
+                    <div class="bg-gray-50 p-8 rounded-xl">
+                        <h3 class="text-xl font-bold text-gray-900 mb-4">🔍 البحث والتحليل</h3>
+                        <p class="text-gray-700">نبدأ بفهم عميق لجمهورك، احتياجاتهم، مشاكلهم، واهتماماتهم لإنشاء محتوى يلمس قلبهم حقاً.</p>
+                    </div>
+
+                    <div class="bg-gray-50 p-8 rounded-xl">
+                        <h3 class="text-xl font-bold text-gray-900 mb-4">📋 التخطيط الاستراتيجي</h3>
+                        <p class="text-gray-700">نضع خريطة طريق محتوى واضحة تحدد الموضوعات والأنواع والتكرار لضمان استمرارية وانسجام.</p>
+                    </div>
+
+                    <div class="bg-gray-50 p-8 rounded-xl">
+                        <h3 class="text-xl font-bold text-gray-900 mb-4">✏️ الكتابة والإنشاء</h3>
+                        <p class="text-gray-700">فريقنا ينشئ محتوى أصلي وجذاب يجمع بين الجودة والإبداع والقيمة الفعلية لجمهورك.</p>
+                    </div>
+
+                    <div class="bg-gray-50 p-8 rounded-xl">
+                        <h3 class="text-xl font-bold text-gray-900 mb-4">📤 النشر والتوزيع</h3>
+                        <p class="text-gray-700">ننشر محتواك في الأوقات والمنصات المناسبة لتحقيق أقصى وصول وتفاعل من جمهورك.</p>
+                    </div>
+
+                    <div class="bg-gray-50 p-8 rounded-xl">
+                        <h3 class="text-xl font-bold text-gray-900 mb-4">📊 القياس والتحسين</h3>
+                        <p class="text-gray-700">نراقب أداء كل قطعة محتوى ونتعلم من البيانات لتحسين الاستراتيجية باستمرار.</p>
+                    </div>
+
+                    <div class="bg-gray-50 p-8 rounded-xl">
+                        <h3 class="text-xl font-bold text-gray-900 mb-4">🔄 التحسين المستمر</h3>
+                        <p class="text-gray-700">نعتمد نهج تكراري نعدّل استراتيجيتنا بناءً على النتائج والتغيرات في السوق.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- =========== Benefits Section =========== -->
+<section class="py-24 bg-gradient-to-r from-primary to-primary-darker text-white">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-3xl sm:text-4xl font-bold mb-16 text-center">الفوائد التي تحققها معنا</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+                    
+                    <div class="text-center">
+                        <div class="text-5xl font-bold mb-3">📈</div>
+                        <h3 class="text-xl font-bold mb-2">زيادة الزيارات</h3>
+                        <p class="text-primary-lightest">محتوى محسّن يجذب عدد أكبر من الزوار المستهدفين إلى موقعك.</p>
+                    </div>
+
+                    <div class="text-center">
+                        <div class="text-5xl font-bold mb-3">🤝</div>
+                        <h3 class="text-xl font-bold mb-2">بناء الثقة</h3>
+                        <p class="text-primary-lightest">محتوى قيّم يجعل جمهورك يرى علامتك التجارية كخبير موثوق.</p>
+                    </div>
+
+                    <div class="text-center">
+                        <div class="text-5xl font-bold mb-3">💰</div>
+                        <h3 class="text-xl font-bold mb-2">زيادة المبيعات</h3>
+                        <p class="text-primary-lightest">جمهور معلم ومثقف أكثر عرضة للتحويل والشراء.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- =========== CTA Section =========== -->
+<section class="py-16 bg-light-bg">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">جاهز لرحلة المحتوى الناجحة؟</h2>
+                <p class="text-lg text-gray-700 mb-10 max-w-2xl mx-auto">
+                    دع فريقنا يساعدك في بناء استراتيجية محتوى قوية تحول جمهورك إلى عملاء مخلصين.
+                </p>
+                <a href="inex.html#contact" class="bg-primary text-white px-8 py-3.5 rounded-full font-semibold text-lg shadow-lg hover:bg-primary-darker hover:shadow-xl transition-all duration-300 transform hover:-translate-y-0.5 inline-block">
+                    اطلب استشارة محتوى مجانية الآن
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- =========== Footer =========== -->
+<footer class="w-full bg-dark-bg text-gray-400 py-10">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p class="mb-4">&copy; 2025 الخطوة السابعة للخدمات التسويقية.</p>
+            <p>جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Mobile Menu -->
+<script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const menuButton = document.getElementById('mobile-menu-button');
+            const mobileMenu = document.getElementById('mobile-menu');
+
+            menuButton.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+            });
+        });
+    </script>
+</body>
+</html>

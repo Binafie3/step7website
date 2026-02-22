@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" style="scroll-behavior: smooth;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>خدمة تحسين محركات البحث (SEO) | الخطوة السابعة</title>
+    <meta name="description" content="خدمة تحسين محركات البحث المتكاملة من شركة الخطوة السابعة. نضمن ظهور علامتك في صدارة نتائج البحث.">
+    
+    <!-- Tailwind CSS CDN --><script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts (Tajawal) --><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        body, html {
+            font-family: 'Tajawal', sans-serif;
+        }
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f5f9;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #8B7E67;
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #7A6F5A;
+        }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary': {
+                            DEFAULT: '#8B7E67',
+                            'light': '#D3CDC4',
+                            'lightest': '#F8F7F5',
+                            'darker': '#7A6F5A',
+                        },
+                        'dark-bg': '#1A1A1A',
+                        'light-bg': '#F8F7F5',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-white text-gray-900 antialiased">
+
+    <!-- =========== Header =========== -->
+<header class="bg-dark-bg shadow-lg sticky top-0 z-50 transition-all duration-300">
+        <nav class="container mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-20">
+            <a href="inex.html" class="flex items-center gap-2 flex-shrink-0">
+                <img src="images\شعار مفرغ.png" alt="شعار الخطوة السابعة" class="h-16 md:h-24 w-auto">
+            </a>
+            <div class="hidden md:flex flex-1 justify-center items-center flex-wrap gap-4 md:gap-6 lg:gap-10 min-w-0">
+                <a href="inex.html" class="text-gray-300 hover:text-primary-light transition-colors duration-200 text-lg font-medium px-3 whitespace-nowrap">الرئيسية</a>
+                <a href="inex.html#about" class="text-gray-300 hover:text-primary-light transition-colors duration-200 text-lg font-medium px-3 whitespace-nowrap">من نحن</a>
+                <a href="inex.html#services" class="text-gray-300 hover:text-primary-light transition-colors duration-200 text-lg font-medium px-3 whitespace-nowrap">خدماتنا</a>
+                <a href="inex.html#process" class="text-gray-300 hover:text-primary-light transition-colors duration-200 text-lg font-medium px-3 whitespace-nowrap">آلية عملنا</a>
+                <a href="inex.html#contact" class="text-gray-300 hover:text-primary-light transition-colors duration-200 text-lg font-medium px-3 whitespace-nowrap">تواصل معنا</a>
+            </div>
+            <a href="inex.html#contact" class="hidden md:block bg-primary text-white px-6 py-2.5 rounded-full font-semibold shadow-lg hover:bg-primary-darker hover:shadow-xl transition-all duration-300 transform hover:-translate-y-0.5 flex-shrink-0">
+                اطلب استشارة مجانية
+            </a>
+            <button id="mobile-menu-button" class="md:hidden text-gray-300 hover:text-primary-light" aria-label="فتح القائمة">
+                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+            </button>
+        </nav>
+        <div id="mobile-menu" class="hidden md:hidden bg-dark-bg shadow-xl absolute top-full left-0 w-full z-40">
+            <div class="flex flex-col space-y-4 p-6">
+                <a href="inex.html" class="text-gray-300 hover:text-primary-light transition-colors duration-200 text-lg font-medium block text-center">الرئيسية</a>
+                <a href="inex.html#about" class="text-gray-300 hover:text-primary-light transition-colors duration-200 text-lg font-medium block text-center">من نحن</a>
+                <a href="inex.html#services" class="text-gray-300 hover:text-primary-light transition-colors duration-200 text-lg font-medium block text-center">خدماتنا</a>
+                <a href="inex.html#process" class="text-gray-300 hover:text-primary-light transition-colors duration-200 text-lg font-medium block text-center">آلية عملنا</a>
+                <a href="inex.html#contact" class="text-gray-300 hover:text-primary-light transition-colors duration-200 text-lg font-medium block text-center">تواصل معنا</a>
+                <a href="inex.html#contact" class="mt-4 w-full bg-primary text-white px-6 py-3 rounded-full font-semibold shadow-lg hover:bg-primary-darker transition-all duration-300 text-center">
+                    اطلب استشارة مجانية
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- =========== Main Content =========== -->
+<main>
+        <!-- =========== Hero Section =========== -->
+<section class="relative bg-gradient-to-br from-light-bg via-white to-light-bg pt-20 pb-20 md:pt-32 md:pb-32 overflow-hidden">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center md:text-right max-w-4xl">
+                    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-gray-900 leading-tight">
+                        خدمة تحسين محركات البحث
+                        <span class="block text-primary">(SEO)</span>
+                    </h1>
+                    <p class="mt-6 text-lg sm:text-xl text-gray-700">
+                        نضمن لعلامتك التجارية الظهور في صدارة نتائج البحث، لجذب زيارات عالية الجودة ومستهدفة وتحويلها إلى عملاء حقيقيين.
+                    </p>
+                    <div class="mt-10 flex flex-col sm:flex-row justify-center md:justify-start gap-4">
+                        <a href="inex.html#contact" class="bg-primary text-white px-8 py-3.5 rounded-full font-semibold text-lg shadow-lg hover:bg-primary-darker hover:shadow-xl transition-all duration-300 transform hover:-translate-y-0.5">
+                            ابدأ معنا الآن
+                        </a>
+                        <a href="inex.html#services" class="bg-white text-primary border border-primary-light px-8 py-3.5 rounded-full font-semibold text-lg shadow-sm hover:bg-light-bg hover:shadow-lg transition-all duration-300">
+                            عودة للخدمات
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========== What is SEO =========== -->
+<section class="py-24 bg-white">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="max-w-4xl">
+                    <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-8">ما هو تحسين محركات البحث (SEO)؟</h2>
+                    <p class="text-lg text-gray-700 mb-6">
+                        تحسين محركات البحث هو عملية شاملة لتحسين موقعك الإلكتروني ليظهر في مراتب أعلى في نتائج البحث الطبيعية (غير المدفوعة). هذا يعني المزيد من الزيارات المجانية والعضوية من الأشخاص الذين يبحثون فعلاً عن خدماتك ومنتجاتك.
+                    </p>
+                    <p class="text-lg text-gray-700">
+                        في الخطوة السابعة، نستخدم أحدث تقنيات وأفضل الممارسات في تحسين محركات البحث لضمان أن علامتك التجارية تتصدر البحث في مجالك.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========== Our SEO Services =========== -->
+<section class="py-24 bg-gray-50">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-16 text-center">خدمات SEO المتكاملة</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-5xl mx-auto">
+                    
+                    <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
+                        <div class="w-12 h-12 bg-primary-lightest text-primary rounded-full flex items-center justify-center mb-6">
+                            <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 20 20"><path d="M2.5 3A1.5 1.5 0 001 4.5v.006c0 .849.648 1.54 1.479 1.594.342.606.654 1.242.94 1.898a4 4 0 01.404 2.554c0 1.013-.294 1.96-.823 2.778l-.447.894c-.15.3-.15.684 0 .984l.447.894c.529.818.823 1.765.823 2.778 0 .913-.244 1.769-.673 2.5H3a1.5 1.5 0 001.5-1.5V4.5A1.5 1.5 0 003 3h-.5zm16 0A1.5 1.5 0 0017 4.5v11a1.5 1.5 0 001.5 1.5h.5a1.5 1.5 0 001.5-1.5v-.006c0-.849-.648-1.54-1.479-1.594-.342-.606-.654-1.242-.94-1.898a4 4 0 01-.404-2.554c0-1.013.294-1.96.823-2.778l.447-.894c.15-.3.15-.684 0-.984l-.447-.894C18.529 6.318 18.235 5.372 18.235 4.36c0-.913.244-1.769.673-2.5H17a1.5 1.5 0 00-1.5 1.5z"></path></svg>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">تحليل الكلمات المفتاحية</h3>
+                        <p class="text-gray-700 mb-4">
+                            نقوم بدراسة شاملة لتحديد الكلمات المفتاحية الأكثر قيمة لعملك، والتي يبحث عنها جمهورك المستهدف بفعالية.
+                        </p>
+                        <ul class="space-y-2 text-gray-700">
+                            <li class="flex items-center gap-2">
+                                <span class="text-primary">✓</span> بحث عميق عن الكلمات المفتاحية
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <span class="text-primary">✓</span> تحليل شامل للمنافسين
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <span class="text-primary">✓</span> تقييم القيمة والصعوبة
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
+                        <div class="w-12 h-12 bg-primary-lightest text-primary rounded-full flex items-center justify-center mb-6">
+                            <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M4.5 2A1.5 1.5 0 003 3.5v13A1.5 1.5 0 004.5 18h11a1.5 1.5 0 001.5-1.5V7.621a1.5 1.5 0 00-.44-1.06l-2.12-2.143A1.5 1.5 0 0011.381 3H4.5zm6.75 8.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm2 2.5a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" clip-rule="evenodd"></path></svg>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">تحسين On-Page SEO</h3>
+                        <p class="text-gray-700 mb-4">
+                            نحسّن كل صفحة من موقعك لتكون محسّنة تماماً لمحركات البحث والزوار.
+                        </p>
+                        <ul class="space-y-2 text-gray-700">
+                            <li class="flex items-center gap-2">
+                                <span class="text-primary">✓</span> تحسين العناوين والوصفات
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <span class="text-primary">✓</span> بناء محتوى عالي الجودة
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <span class="text-primary">✓</span> تحسين سرعة الصفحة
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
+                        <div class="w-12 h-12 bg-primary-lightest text-primary rounded-full flex items-center justify-center mb-6">
+                            <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 20 20"><path d="M10.5 1.5H5.75A2.75 2.75 0 003 4.25v11.5A2.75 2.75 0 005.75 18h8.5A2.75 2.75 0 0017 15.25V9M14 4l3 3m0 0l-3 3m3-3H9.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">بناء الروابط الخارجية</h3>
+                        <p class="text-gray-700 mb-4">
+                            نبني شبكة قوية من الروابط الخارجية من مواقع موثوقة لزيادة سلطة موقعك.
+                        </p>
+                        <ul class="space-y-2 text-gray-700">
+                            <li class="flex items-center gap-2">
+                                <span class="text-primary">✓</span> اكتساب روابط من مواقع عالية
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <span class="text-primary">✓</span> التواعد مع المدونات ذات الصلة
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <span class="text-primary">✓</span> محتوى يستحق الربط
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
+                        <div class="w-12 h-12 bg-primary-lightest text-primary rounded-full flex items-center justify-center mb-6">
+                            <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 20 20"><path d="M2 11a1 1 0 011-1h2a1 1 0 011 1v5a1 1 0 01-1 1H3a1 1 0 01-1-1v-5zM8 7a1 1 0 011-1h2a1 1 0 011 1v9a1 1 0 01-1 1H9a1 1 0 01-1-1V7zM14 4a1 1 0 011-1h2a1 1 0 011 1v12a1 1 0 01-1 1h-2a1 1 0 01-1-1V4z"></path></svg>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">المراقبة والتقارير</h3>
+                        <p class="text-gray-700 mb-4">
+                            نراقب أداء موقعك باستمرار ونقدم لك تقارير مفصلة عن التقدم والنتائج.
+                        </p>
+                        <ul class="space-y-2 text-gray-700">
+                            <li class="flex items-center gap-2">
+                                <span class="text-primary">✓</span> تتبع ترتيب الكلمات
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <span class="text-primary">✓</span> تحليل الزيارات العضوية
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <span class="text-primary">✓</span> تقارير شهرية مفصلة
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- =========== Why Choose Us =========== -->
+<section class="py-24 bg-white">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-16 text-center">لماذا تختار خدمة SEO من الخطوة السابعة؟</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-10 max-w-5xl mx-auto">
+                    
+                    <div class="text-center">
+                        <div class="w-20 h-20 bg-primary-lightest text-primary rounded-full flex items-center justify-center mx-auto mb-6">
+                            <span class="text-3xl font-bold">5+</span>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">سنوات من الخبرة</h3>
+                        <p class="text-gray-700">فريقنا لديه خبرة طويلة في تحسين محركات البحث وتحقيق نتائج ملموسة للعملاء.</p>
+                    </div>
+
+                    <div class="text-center">
+                        <div class="w-20 h-20 bg-primary-lightest text-primary rounded-full flex items-center justify-center mx-auto mb-6">
+                            <span class="text-3xl font-bold">50+</span>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">عميل راضٍ</h3>
+                        <p class="text-gray-700">ساعدنا أكثر من 50 علامة تجارية في الوصول إلى الصدارة في محركات البحث.</p>
+                    </div>
+
+                    <div class="text-center">
+                        <div class="w-20 h-20 bg-primary-lightest text-primary rounded-full flex items-center justify-center mx-auto mb-6">
+                            <span class="text-3xl font-bold">300%</span>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">متوسط النمو</h3>
+                        <p class="text-gray-700">عملاؤنا يشهدون بمعدل نمو يصل إلى 300% في الزيارات العضوية خلال 6 أشهر.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- =========== CTA Section =========== -->
+<section class="py-16 bg-gradient-to-r from-primary to-primary-darker text-white">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h2 class="text-3xl sm:text-4xl font-bold mb-6">جاهز لرفع ترتيب موقعك؟</h2>
+                <p class="text-lg mb-10 max-w-2xl mx-auto">
+                    اطلب استشارة مجانية من فريق الخطوة السابعة واعرف كيف يمكننا مساعدتك في الوصول إلى الصدارة.
+                </p>
+                <a href="inex.html#contact" class="bg-white text-primary px-8 py-3.5 rounded-full font-semibold text-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-0.5 inline-block">
+                    اطلب استشارة مجانية الآن
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- =========== Footer =========== -->
+<footer class="w-full bg-dark-bg text-gray-400 py-10">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p class="mb-4">&copy; 2025 الخطوة السابعة للخدمات التسويقية.</p>
+            <p>جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Mobile Menu -->
+<script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const menuButton = document.getElementById('mobile-menu-button');
+            const mobileMenu = document.getElementById('mobile-menu');
+
+            menuButton.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+            });
+        });
+    </script>
+</body>
+</html>

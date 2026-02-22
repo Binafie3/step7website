@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" style="scroll-behavior: smooth;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>خدمة الإعلانات المدفوعة (PPC) | الخطوة السابعة</title>
+    <meta name="description" content="خدمة الإعلانات المدفوعة (PPC) من شركة الخطوة السابعة. حملات إعلانية محترفة على جوجل ومنصات التواصل لتحقيق أقصى عائد على الاستثمار.">
+    
+    <!-- Tailwind CSS CDN --><script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts (Tajawal) --><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        body, html {
+            font-family: 'Tajawal', sans-serif;
+        }
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f5f9;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #8B7E67;
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #7A6F5A;
+        }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary': {
+                            DEFAULT: '#8B7E67',
+                            'light': '#D3CDC4',
+                            'lightest': '#F8F7F5',
+                            'darker': '#7A6F5A',
+                        },
+                        'dark-bg': '#1A1A1A',
+                        'light-bg': '#F8F7F5',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-white text-gray-900 antialiased">
+
+    <!-- =========== Header =========== -->
+<header class="bg-dark-bg shadow-lg sticky top-0 z-50 transition-all duration-300">
+        <nav class="container mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-20">
+            <a href="inex.html" class="flex items-center gap-2 flex-shrink-0">
+                <img src="images\شعار مفرغ.png" alt="شعار الخطوة السابعة" class="h-16 md:h-24 w-auto">
+            </a>
+            <div class="hidden md:flex flex-1 justify-center items-center flex-wrap gap-4 md:gap-6 lg:gap-10 min-w-0">
+                <a href="inex.html" class="text-gray-300 hover:text-primary-light transition-colors duration-200 text-lg font-medium px-3 whitespace-nowrap">الرئيسية</a>
+                <a href="inex.html#about" class="text-gray-300 hover:text-primary-light transition-colors duration-200 text-lg font-medium px-3 whitespace-nowrap">من نحن</a>
+                <a href="inex.html#services" class="text-gray-300 hover:text-primary-light transition-colors duration-200 text-lg font-medium px-3 whitespace-nowrap">خدماتنا</a>
+                <a href="inex.html#process" class="text-gray-300 hover:text-primary-light transition-colors duration-200 text-lg font-medium px-3 whitespace-nowrap">آلية عملنا</a>
+                <a href="inex.html#contact" class="text-gray-300 hover:text-primary-light transition-colors duration-200 text-lg font-medium px-3 whitespace-nowrap">تواصل معنا</a>
+            </div>
+            <a href="inex.html#contact" class="hidden md:block bg-primary text-white px-6 py-2.5 rounded-full font-semibold shadow-lg hover:bg-primary-darker hover:shadow-xl transition-all duration-300 transform hover:-translate-y-0.5 flex-shrink-0">
+                اطلب استشارة مجانية
+            </a>
+            <button id="mobile-menu-button" class="md:hidden text-gray-300 hover:text-primary-light" aria-label="فتح القائمة">
+                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+            </button>
+        </nav>
+        <div id="mobile-menu" class="hidden md:hidden bg-dark-bg shadow-xl absolute top-full left-0 w-full z-40">
+            <div class="flex flex-col space-y-4 p-6">
+                <a href="inex.html" class="text-gray-300 hover:text-primary-light transition-colors duration-200 text-lg font-medium block text-center">الرئيسية</a>
+                <a href="inex.html#about" class="text-gray-300 hover:text-primary-light transition-colors duration-200 text-lg font-medium block text-center">من نحن</a>
+                <a href="inex.html#services" class="text-gray-300 hover:text-primary-light transition-colors duration-200 text-lg font-medium block text-center">خدماتنا</a>
+                <a href="inex.html#process" class="text-gray-300 hover:text-primary-light transition-colors duration-200 text-lg font-medium block text-center">آلية عملنا</a>
+                <a href="inex.html#contact" class="text-gray-300 hover:text-primary-light transition-colors duration-200 text-lg font-medium block text-center">تواصل معنا</a>
+                <a href="inex.html#contact" class="mt-4 w-full bg-primary text-white px-6 py-3 rounded-full font-semibold shadow-lg hover:bg-primary-darker transition-all duration-300 text-center">
+                    اطلب استشارة مجانية
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- =========== Main Content =========== -->
+<main>
+        <!-- =========== Hero Section =========== -->
+<section class="relative bg-gradient-to-br from-light-bg via-white to-light-bg pt-20 pb-20 md:pt-32 md:pb-32 overflow-hidden">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center md:text-right max-w-4xl">
+                    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-gray-900 leading-tight">
+                        الإعلانات المدفوعة (PPC)
+                        <span class="block text-primary">نتائج فورية مع عائد استثماري مضمون</span>
+                    </h1>
+                    <p class="mt-6 text-lg sm:text-xl text-gray-700">
+                        نصمم وندير حملات إعلانية احترافية على Google Ads و Facebook و Instagram و LinkedIn لتحقيق أهدافك بسرعة وكفاءة عالية.
+                    </p>
+                    <div class="mt-10 flex flex-col sm:flex-row justify-center md:justify-start gap-4">
+                        <a href="inex.html#contact" class="bg-primary text-white px-8 py-3.5 rounded-full font-semibold text-lg shadow-lg hover:bg-primary-darker hover:shadow-xl transition-all duration-300 transform hover:-translate-y-0.5">
+                            ابدأ حملتك الآن
+                        </a>
+                        <a href="inex.html#services" class="bg-white text-primary border border-primary-light px-8 py-3.5 rounded-full font-semibold text-lg shadow-sm hover:bg-light-bg hover:shadow-lg transition-all duration-300">
+                            عودة للخدمات
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========== Introduction Section =========== -->
+<section class="py-24 bg-white">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="max-w-4xl">
+                    <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-8">لماذا الإعلانات المدفوعة (PPC)؟</h2>
+                    <p class="text-lg text-gray-700 mb-6">
+                        الإعلانات المدفوعة توفر نتائج فورية وقابلة للقياس. بدلاً من الانتظار لتحسين محرك البحث، تظهر إعلاناتك في الأعلى على الفور، تصل إلى جمهورك المستهدف بدقة، وتحقق تحويلات فورية.
+                    </p>
+                    <p class="text-lg text-gray-700">
+                        في الخطوة السابعة، نستخدم استراتيجيات متقدمة في إدارة الحملات الإعلانية، مع التركيز على تحسين التكلفة لكل نقرة (CPC) وزيادة العائد على الاستثمار (ROI) لكل حملة.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========== PPC Platforms =========== -->
+<section class="py-24 bg-gray-50">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-16 text-center">منصات الإعلانات التي ندير حملات عليها</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    
+                    <!-- Google Ads -->
+                    <div class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden">
+                        <div class="bg-gradient-to-br from-blue-500 to-blue-600 p-8 text-white text-center">
+                            <h3 class="text-2xl font-bold">Google Ads</h3>
+                        </div>
+                        <div class="p-6">
+                            <ul class="space-y-3">
+                                <li class="flex items-start gap-3">
+                                    <svg class="w-5 h-5 text-primary flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <span class="text-gray-700">إعلانات البحث (Search)</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <svg class="w-5 h-5 text-primary flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <span class="text-gray-700">إعلانات العرض (Display)</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <svg class="w-5 h-5 text-primary flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <span class="text-gray-700">إعلانات الفيديو (YouTube)</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <svg class="w-5 h-5 text-primary flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <span class="text-gray-700">الشراء (Shopping)</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Facebook & Instagram -->
+                    <div class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden">
+                        <div class="bg-gradient-to-br from-blue-400 to-blue-700 p-8 text-white text-center">
+                            <h3 class="text-2xl font-bold">Facebook & Instagram</h3>
+                        </div>
+                        <div class="p-6">
+                            <ul class="space-y-3">
+                                <li class="flex items-start gap-3">
+                                    <svg class="w-5 h-5 text-primary flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <span class="text-gray-700">إعلانات الصور والفيديو</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <svg class="w-5 h-5 text-primary flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <span class="text-gray-700">استهداف ديموغرافي دقيق</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <svg class="w-5 h-5 text-primary flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <span class="text-gray-700">إعادة الاستهداف (Retargeting)</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <svg class="w-5 h-5 text-primary flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <span class="text-gray-700">تحديد التحويلات</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- LinkedIn -->
+                    <div class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden">
+                        <div class="bg-gradient-to-br from-blue-600 to-blue-800 p-8 text-white text-center">
+                            <h3 class="text-2xl font-bold">LinkedIn Ads</h3>
+                        </div>
+                        <div class="p-6">
+                            <ul class="space-y-3">
+                                <li class="flex items-start gap-3">
+                                    <svg class="w-5 h-5 text-primary flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <span class="text-gray-700">استهداف B2B دقيق</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <svg class="w-5 h-5 text-primary flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <span class="text-gray-700">جذب المتخصصين</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <svg class="w-5 h-5 text-primary flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <span class="text-gray-700">إعلانات الرسائل</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <svg class="w-5 h-5 text-primary flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <span class="text-gray-700">قيادات مؤهلة</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- TikTok & Others -->
+                    <div class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden">
+                        <div class="bg-gradient-to-br from-black to-gray-800 p-8 text-white text-center">
+                            <h3 class="text-2xl font-bold">TikTok & Snapchat</h3>
+                        </div>
+                        <div class="p-6">
+                            <ul class="space-y-3">
+                                <li class="flex items-start gap-3">
+                                    <svg class="w-5 h-5 text-primary flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <span class="text-gray-700">الجمهور الشاب والنشط</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <svg class="w-5 h-5 text-primary flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <span class="text-gray-700">الفيديوهات القصيرة</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <svg class="w-5 h-5 text-primary flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <span class="text-gray-700">الاتجاهات الفيروسية</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <svg class="w-5 h-5 text-primary flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                    <span class="text-gray-700">ROI عالي</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- =========== Our PPC Services =========== -->
+<section class="py-24 bg-white">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-16 text-center">خدماتنا في إدارة حملات PPC</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-5xl mx-auto">
+                    
+                    <div class="bg-gray-50 p-8 rounded-xl">
+                        <h3 class="text-xl font-bold text-gray-900 mb-4">🎯 تخطيط الحملة الاستراتيجي</h3>
+                        <p class="text-gray-700">نقوم بتحليل عميق لسوقك والمنافسين وتحديد الكلمات المفتاحية الأمثل والميزانية المناسبة لتحقيق أهدافك.</p>
+                    </div>
+
+                    <div class="bg-gray-50 p-8 rounded-xl">
+                        <h3 class="text-xl font-bold text-gray-900 mb-4">🖋️ كتابة الإعلانات المقنعة</h3>
+                        <p class="text-gray-700">ننشئ نسخة إعلانية جذابة وقوية تحفز الجمهور على النقر والتحويل مع تحسين نوعية النقرات.</p>
+                    </div>
+
+                    <div class="bg-gray-50 p-8 rounded-xl">
+                        <h3 class="text-xl font-bold text-gray-900 mb-4">📊 القياس والتحليل المستمر</h3>
+                        <p class="text-gray-700">نراقب أداء حملاتك يومياً ونحلل البيانات لتحديد ما ينجح وما يحتاج تحسين.</p>
+                    </div>
+
+                    <div class="bg-gray-50 p-8 rounded-xl">
+                        <h3 class="text-xl font-bold text-gray-900 mb-4">⚙️ التحسين والتطوير المستمر</h3>
+                        <p class="text-gray-700">نقوم بالاختبارات (A/B Testing) والتحسينات المستمرة لخفض CPC وزيادة ROI بشكل دائم.</p>
+                    </div>
+
+                    <div class="bg-gray-50 p-8 rounded-xl">
+                        <h3 class="text-xl font-bold text-gray-900 mb-4">🎨 تصميم الصفحات المقصودة</h3>
+                        <p class="text-gray-700">نصمم صفحات مقصودة (Landing Pages) محسنة للتحويل تتناسب مع إعلاناتك وتحقق أقصى عائد.</p>
+                    </div>
+
+                    <div class="bg-gray-50 p-8 rounded-xl">
+                        <h3 class="text-xl font-bold text-gray-900 mb-4">📈 التقارير الشفافة المفصلة</h3>
+                        <p class="text-gray-700">تتلقى تقارير شهرية مفصلة تشرح الإنفاق والعائد والتحسينات التي تمت وما سيتم القادم.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- =========== PPC Metrics Section =========== -->
+<section class="py-24 bg-gradient-to-r from-primary to-primary-darker text-white">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-3xl sm:text-4xl font-bold mb-16 text-center">المقاييس التي ندركها وندير عليها</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    
+                    <div class="text-center">
+                        <div class="text-5xl font-bold mb-2">CPC</div>
+                        <p class="text-lg text-primary-lightest">تكلفة النقرة الواحدة</p>
+                        <p class="text-sm mt-2">نخفض التكلفة مع الحفاظ على جودة النقرات</p>
+                    </div>
+
+                    <div class="text-center">
+                        <div class="text-5xl font-bold mb-2">CTR</div>
+                        <p class="text-lg text-primary-lightest">معدل النقر على الإعلان</p>
+                        <p class="text-sm mt-2">إعلانات مكتوبة وموضعة بشكل أمثل</p>
+                    </div>
+
+                    <div class="text-center">
+                        <div class="text-5xl font-bold mb-2">CR</div>
+                        <p class="text-lg text-primary-lightest">معدل التحويل</p>
+                        <p class="text-sm mt-2">صفحات مقصودة محسنة للتحويل</p>
+                    </div>
+
+                    <div class="text-center">
+                        <div class="text-5xl font-bold mb-2">ROI</div>
+                        <p class="text-lg text-primary-lightest">العائد على الاستثمار</p>
+                        <p class="text-sm mt-2">هدفنا الأساسي: تحقيق أقصى عائد</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- =========== CTA Section =========== -->
+<section class="py-16 bg-light-bg">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">جاهز لحملة إعلانية احترافية؟</h2>
+                <p class="text-lg text-gray-700 mb-10 max-w-2xl mx-auto">
+                    دع فريقنا المتخصص في PPC يدير حملاتك ويحول إنفاقك الإعلاني إلى نتائج قابلة للقياس وعائد حقيقي.
+                </p>
+                <a href="inex.html#contact" class="bg-primary text-white px-8 py-3.5 rounded-full font-semibold text-lg shadow-lg hover:bg-primary-darker hover:shadow-xl transition-all duration-300 transform hover:-translate-y-0.5 inline-block">
+                    اطلب استشارة مجانية الآن
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- =========== Footer =========== -->
+<footer class="w-full bg-dark-bg text-gray-400 py-10">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p class="mb-4">&copy; 2025 الخطوة السابعة للخدمات التسويقية.</p>
+            <p>جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Mobile Menu -->
+<script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const menuButton = document.getElementById('mobile-menu-button');
+            const mobileMenu = document.getElementById('mobile-menu');
+
+            menuButton.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+            });
+        });
+    </script>
+</body>
+</html>
